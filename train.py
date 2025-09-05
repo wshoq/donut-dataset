@@ -6,14 +6,32 @@ from torch.optim import AdamW
 from transformers import DonutProcessor, VisionEncoderDecoderModel
 from PIL import Image
 from tqdm import tqdm
+import requests, zipfile, io
 
 # --- Ścieżki ---
 JSON_FOLDER = "/workspace/data/json"
 PNG_FOLDER = "/workspace/data/png"
+DATASET_ZIP_URL = "http://194.110.5.34:8000/dataset.zip"
+DATA_FOLDER = "/workspace/data"
 MODEL_NAME = "naver-clova-ix/donut-base-finetuned-cord-v2"
 BATCH_SIZE = 1
 EPOCHS = 3
 MAX_LENGTH = 1024
+
+# --- Pobranie datasetu jeśli nie istnieje ---
+if not (os.path.exists(JSON_FOLDER) and os.path.exists(PNG_FOLDER)):
+    print(f"🔹 Dataset nie znaleziony w {DATA_FOLDER}, pobieranie...")
+    os.makedirs(DATA_FOLDER, exist_ok=True)
+    r = requests.get(DATASET_ZIP_URL, stream=True)
+    r.raise_for_status()
+    with open(os.path.join(DATA_FOLDER, "dataset.zip"), "wb") as f:
+        for chunk in r.iter_content(chunk_size=8192):
+            f.write(chunk)
+    print("🔹 Rozpakowywanie datasetu...")
+    with zipfile.ZipFile(os.path.join(DATA_FOLDER, "dataset.zip"), "r") as zip_ref:
+        zip_ref.extractall(DATA_FOLDER)
+    os.remove(os.path.join(DATA_FOLDER, "dataset.zip"))
+    print("✅ Dataset gotowy!")
 
 # --- Dataset ---
 class DonutDataset(Dataset):
