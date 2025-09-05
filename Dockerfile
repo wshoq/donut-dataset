@@ -46,9 +46,5 @@ RUN pip install --no-cache-dir \
 # --- Domyślny CMD ---
 CMD ["python3", "train.py"]
 
-# --- Skopiowanie datasetu i rozpakowanie ---
-COPY dataset.zip /workspace/dataset.zip
-RUN unzip /workspace/dataset.zip -d /workspace/data \
-    && rm /workspace/dataset.zip
 
 
