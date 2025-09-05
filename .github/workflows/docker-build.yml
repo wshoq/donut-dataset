@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Pobranie repo
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2️⃣ Logowanie do GHCR (Twoje konto)
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v2
         with:
@@ -20,10 +22,10 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-
+      # 3️⃣ Budowa i wypchnięcie obrazu
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}/donut-train:latest
+          tags: ghcr.io/wshoq/donut-train:latest
