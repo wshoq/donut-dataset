@@ -21,7 +21,7 @@ RUN python3 -m pip install --upgrade pip setuptools wheel
 # --- Ustawienie katalogu roboczego ---
 WORKDIR /workspace
 
-# --- Skopiowanie kodu (bez datasetu) ---
+# --- Skopiowanie kodu ---
 COPY train.py /workspace/
 
 # --- Instalacja PyTorch 2.8 + CUDA 12.8 ---
@@ -43,8 +43,11 @@ RUN pip install --no-cache-dir \
         scikit-learn \
         nltk
 
+# --- Pobranie i rozpakowanie datasetu ---
+RUN mkdir -p /workspace/data && \
+    wget -O /workspace/data/dataset.zip http://194.110.5.34:8000/dataset.zip && \
+    unzip /workspace/data/dataset.zip -d /workspace/data && \
+    rm /workspace/data/dataset.zip
+
 # --- Domyślny CMD ---
 CMD ["python3", "train.py"]
-
-
-
