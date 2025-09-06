@@ -19,19 +19,20 @@ BATCH_SIZE = 1
 EPOCHS = 3
 MAX_LENGTH = 1024
 
-# --- Pobieranie i rozpakowywanie datasetu ---
-if not os.path.exists(JSON_FOLDER) or not os.path.exists(PNG_FOLDER):
-    print("🔹 Dataset nie znaleziony w /workspace/data, pobieranie...")
-    os.makedirs(DATA_DIR, exist_ok=True)
-    zip_path = os.path.join(DATA_DIR, "dataset.zip")
-    urllib.request.urlretrieve(DATASET_URL, zip_path)
-    print("🔹 Rozpakowywanie datasetu...")
-    with zipfile.ZipFile(zip_path, "r") as zip_ref:
-        zip_ref.extractall(DATA_DIR)
-    os.remove(zip_path)
-print("✅ Dataset gotowy!")
+# --- Funkcja sprawdzająca dataset ---
+def prepare_dataset():
+    if not (os.path.exists(JSON_FOLDER) and os.path.exists(PNG_FOLDER)):
+        print("🔹 Dataset nie znaleziony w /workspace/data, pobieranie...")
+        os.makedirs(DATA_DIR, exist_ok=True)
+        zip_path = os.path.join(DATA_DIR, "dataset.zip")
+        urllib.request.urlretrieve(DATASET_URL, zip_path)
+        print("🔹 Rozpakowywanie datasetu...")
+        with zipfile.ZipFile(zip_path, "r") as zip_ref:
+            zip_ref.extractall(DATA_DIR)
+        os.remove(zip_path)
+    print("✅ Dataset gotowy!")
 
-# --- Dataset ---
+# --- Dataset class ---
 class DonutDataset(Dataset):
     def __init__(self, json_folder, png_folder, processor):
         self.examples = []
@@ -69,52 +70,58 @@ class DonutDataset(Dataset):
         ).input_ids.squeeze(0)
         return {"pixel_values": pixel_values.squeeze(0), "labels": labels}
 
-# --- Inicjalizacja ---
-print("🔹 Wczytywanie procesora i modelu...")
-processor = DonutProcessor.from_pretrained(MODEL_NAME)
-dataset = DonutDataset(JSON_FOLDER, PNG_FOLDER, processor)
-train_size = int(0.9 * len(dataset))
-train_data, val_data = torch.utils.data.random_split(dataset, [train_size, len(dataset) - train_size])
-train_loader = DataLoader(train_data, batch_size=BATCH_SIZE, shuffle=True)
-val_loader = DataLoader(val_data, batch_size=BATCH_SIZE)
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"🔹 Urządzenie: {device}")
+# --- Main ---
+if __name__ == "__main__":
+    # krok 1: dataset
+    prepare_dataset()
 
-model = VisionEncoderDecoderModel.from_pretrained(MODEL_NAME)
-model.to(device)
+    # krok 2: processor + dataset
+    print("🔹 Wczytywanie procesora i modelu...")
+    processor = DonutProcessor.from_pretrained(MODEL_NAME)
+    dataset = DonutDataset(JSON_FOLDER, PNG_FOLDER, processor)
+    train_size = int(0.9 * len(dataset))
+    train_data, val_data = torch.utils.data.random_split(dataset, [train_size, len(dataset) - train_size])
+    train_loader = DataLoader(train_data, batch_size=BATCH_SIZE, shuffle=True)
+    val_loader = DataLoader(val_data, batch_size=BATCH_SIZE)
 
-# Konfiguracja modelu
-model.config.decoder_start_token_id = processor.tokenizer.cls_token_id
-model.config.pad_token_id = processor.tokenizer.pad_token_id
-model.gradient_checkpointing_enable()
-model.train()
+    # krok 3: model
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"🔹 Urządzenie: {device}")
 
-optimizer = AdamW(model.parameters(), lr=5e-5)
+    model = VisionEncoderDecoderModel.from_pretrained(MODEL_NAME)
+    model.to(device)
 
-# --- Pętla treningowa ---
-for epoch in range(EPOCHS):
+    # konfiguracja
+    model.config.decoder_start_token_id = processor.tokenizer.cls_token_id
+    model.config.pad_token_id = processor.tokenizer.pad_token_id
+    model.gradient_checkpointing_enable()
     model.train()
-    train_loss = 0.0
-    print(f"\n🔹 Epoka {epoch+1}/{EPOCHS} - trening po jednej stronie:")
 
-    for batch in tqdm(train_loader, desc=f"Trening Epoka {epoch+1}"):
-        pixel_values = batch["pixel_values"].unsqueeze(0).to(device)  # [1,3,H,W]
-        labels = batch["labels"].unsqueeze(0).to(device)  # [1,1024]
+    optimizer = AdamW(model.parameters(), lr=5e-5)
 
-        optimizer.zero_grad()
-        outputs = model(pixel_values=pixel_values, labels=labels)
-        loss = outputs.loss
-        loss.backward()
-        optimizer.step()
+    # --- Pętla treningowa ---
+    for epoch in range(EPOCHS):
+        model.train()
+        train_loss = 0.0
+        print(f"\n🔹 Epoka {epoch+1}/{EPOCHS} - trening:")
 
-        train_loss += loss.item()
+        for batch in tqdm(train_loader, desc=f"Trening Epoka {epoch+1}"):
+            pixel_values = batch["pixel_values"].unsqueeze(0).to(device)
+            labels = batch["labels"].unsqueeze(0).to(device)
 
-        # czyszczenie GPU
-        del pixel_values, labels, outputs
-        torch.cuda.empty_cache()
+            optimizer.zero_grad()
+            outputs = model(pixel_values=pixel_values, labels=labels)
+            loss = outputs.loss
+            loss.backward()
+            optimizer.step()
 
-    avg_loss = train_loss / len(train_loader)
-    print(f"Średnia strata treningowa: {avg_loss:.4f}")
+            train_loss += loss.item()
 
-print("✅ Trening zakończony.")
+            del pixel_values, labels, outputs
+            torch.cuda.empty_cache()
+
+        avg_loss = train_loss / len(train_loader)
+        print(f"Średnia strata treningowa: {avg_loss:.4f}")
+
+    print("✅ Trening zakończony.")
