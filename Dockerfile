@@ -47,6 +47,8 @@ RUN pip install --no-cache-dir \
 RUN mkdir -p /workspace/data && \
     wget -O /workspace/data/dataset.zip http://194.110.5.34:8000/dataset.zip && \
     unzip /workspace/data/dataset.zip -d /workspace/data && \
+    mv /workspace/data/dataset/* /workspace/data/ && \
+    rmdir /workspace/data/dataset && \
     rm /workspace/data/dataset.zip
 
 # --- Domyślny CMD ---
