@@ -43,5 +43,6 @@ RUN pip install --no-cache-dir \
     scikit-learn \
     nltk
 
-# --- Domyślny CMD ---
-CMD ["bash"]
+# --- Domyślny entrypoint i cmd ---
+ENTRYPOINT ["/bin/bash"]
+CMD []
