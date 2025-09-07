@@ -24,9 +24,6 @@ WORKDIR /workspace
 # --- Skopiowanie kodu ---
 COPY train.py /workspace/
 
-# --- Skopiowanie lokalnego datasetu ---
-COPY dataset /workspace/data
-
 # --- Instalacja PyTorch 2.8 + CUDA 12.8 ---
 RUN pip install --no-cache-dir \
     torch==2.8.0+cu128 \
@@ -47,4 +44,4 @@ RUN pip install --no-cache-dir \
     nltk
 
 # --- Domyślny CMD ---
-CMD ["python3", "train.py"]
+CMD ["bash"]
