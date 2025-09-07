@@ -9,7 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -18,7 +17,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: wshoq           # Twój login GitHub
+          username: wshoq
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push Docker image
@@ -26,4 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/wshoq/donut-train:latest  # obraz będzie w Twoim koncie
+          tags: ghcr.io/wshoq/donut-train:latest
