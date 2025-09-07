@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "MS Logistics Spółka z o.o.",
+  "Adres zlec": "ul. Jana Pawła II 4/1, 41-100 Siemianowice Śląskie",
+  "Nip zlc": "6431764165",
+  "Przewoźnik": "Firma Transportowo-Spedycyjna \"M.R Składanek\"",
+  "adres przewoźnika": "Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "5360002972",
+  "Nr Zlecenia": "LOG/01390/01/2020",
+  "Załadunek": "(1) Meier Barmstedt Werk Neumünster, Isarstrasse 20, DE 24539 Neumünster",
+  "od (z)": "(1) 31-01-2020 10:00 FIX",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) Polmlek, Topolowa 1, PL 11-100 Lidzbark Warmiński",
+  "Od (r)": "(1) 03-02-2020 FIX",
+  "ref rozł": "(1) brak",
+  "waag": "22,00 T",
+  "opakowanie": "PALETA",
+  "Towar": "ser gouda na paletach 120x80",
+  "Temperatura": "+2+4°C",
+  "Uwagi": "CHŁODNIA",
+  "Fracht": "750",
+  "Waluta": "EUR"
+}
