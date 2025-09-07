@@ -1,35 +1,27 @@
 name: Unzip Dataset
 
 on:
-  workflow_dispatch:  # uruchomienie ręczne
+  workflow_dispatch:
 
 jobs:
   unzip:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Pobierz repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Sprawdź, czy plik istnieje i unzip
       - name: Unzip dataset
         run: |
-          echo "Zawartość katalogu przed unzip:"
-          ls -la
           if [ -f dataset.zip ]; then
             unzip -o dataset.zip -d .
             rm dataset.zip
-            echo "dataset.zip został rozpakowany."
           else
-            echo "dataset.zip nie znaleziony!"
+            echo "dataset.zip nie znaleziony"
             exit 1
           fi
-          echo "Zawartość katalogu po unzip:"
-          ls -la
 
-      # 3️⃣ Commit i push rozpakowanych plików
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
