@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "D&A Logistic Łukasz Robak",
+  "Adres zlec": "Rumiankowa 5, 76-200 Siemianice",
+  "Nip zlc": "PL8392289582",
+  "Przewoźnik": "Firma Transportowo Spedycyjna M.R. Składanek",
+  "adres przewoźnika": "Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "PL5360002972",
+  "Nr Zlecenia": "402/1/2020",
+  "Załadunek": "(1) VOIGT-LOGISTIK, KROKAMP 87, 24534 Neumünster, Niemcy",
+  "od (z)": "2020.01.22 godz 8:00 - 14:00",
+  "Ref zał": "(1) 4500221687 / 82892085",
+  "Rozładunek": "(1) SYSMEX POLSKA c/o POLTRAF SP. Z O.O., UL. STEFANA BATOREGO 4, 05-870 Błonie, Polska",
+  "Od (r)": "(1) 2020.01.23 godz. 08:00 - 14:00",
+  "ref rozł": "(1) brak",
+  "waag": "21t",
+  "opakowanie": "",
+  "Towar": "21t /13,6 / chłodna +15+25",
+  "Temperatura": "+15+25°C",
+  "Uwagi": "",
+  "Fracht": "750",
+  "Waluta": "EUR"
+}

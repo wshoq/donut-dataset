@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "INTERNATIONALE SPEDITION SCHNECKENREITHER Gesellschaft m.b.H.",
+  "Adres zlec": "Wiener Neudorf A2355Ind Zentrum SUD 13/46",
+  "Nip zlc": "ATU22536307",
+  "Przewoźnik": "VECTURA TRANSPORT SP. Z O.O.",
+  "adres przewoźnika": "GOSCINNA 15/19/2, PL-05-082 BLIZNE LASZCZYNSKIEGO",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "437523TS-10",
+  "Załadunek": "(1) ALL Wels Internationale Spedition Schneckenreither Gesellschaft m.b.H., Böhmerwaldstrasse 39, A-4600 Wels",
+  "od (z)": "(1) 25.04.2025 09:00 - 16:00",
+  "Ref zał": "3415698-10 + 3411763-10 +3411761-10 +3419767-10 + 3426085-10 + 3430364-10 + 3430360-10",
+  "Rozładunek": "LIDL Lisia 34 Brzozówka PL33-140 | (2) LIDL ul. Wodna 30-36 PL95-010 Stryków| (3) LIDL ul. Piorunów 21 05-870 Błonie | (4) LIDL ul. Warszawska 1G 05-310 Kałuszyn | (5) LIDL ul. Turzyn 191E 07-221 Brańszczyk",
+  "Od (r)": "(1) brak | (2) brak | (3) brak | (4) brak",
+  "ref rozł": "3411763-10 + 3430365-10 |(2) 3411761-10 + 3419767-1 |(3) 3430360-10 | (4) 3430364-10 | (5) 3415698-10",
+  "waag": "13189 kg",
+  "opakowanie": "26 palet",
+  "Towar": "Dauerbackwaren (produkty piekarnicze trwałe)",
+  "Temperatura": "15-18°C (setpoint: +17°C)",
+  "Uwagi": "[\"Wymagana wymiana palet\",\"Towar chłodzony - wymagane utrzymanie zakresu temperatur\",\"Wymagany wydruk temperatury\",\"Uwaga: towary chłodzone\",\"Załadunek: 25.04.2025 w godzinach 09:00-16:00\",\"Wymagane przestrzeganie warunków CMR dla transportu międzynarodowego i krajowego\",\"Stosowanie Ogólnych Austriackich Warunków Przewoźników (Absp)\",\"Jurysdykcja: sąd w Linzu lub Amsterdamie/Londynie zgodnie z CMR\",\"Dokumenty drukowane nie podlegają regulacjom\"]",
+  "Fracht": "2350",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "Żabka Polska Sp. z o.o.",
+  "Adres zlec": "ul. Stanisława Matyi 8, 61-584 Poznań",
+  "Nip zlc": "522-30-71-241",
+  "Przewoźnik": "Vectura Transport Spółka Z Ograniczoną Odpowiedzialnością",
+  "adres przewoźnika": "ul. Orla 6/6, 05-120 Legionowo",
+  "nip przewoźnik": "PL5361927175",
+  "Nr Zlecenia": "4505130811",
+  "Załadunek": "(1) Żywiec Zdrój S.A., Przemysłowa 8, 34-382 Wieprz",
+  "od (z)": "(1) 02.05.2025 11:00",
+  "Ref zał": "(1) 3115350",
+  "Rozładunek": "(1) Automatyczne Centrum Logistyczne Żabka, Graniczna 20, 05-252 Małopole",
+  "Od (r)": "(1) 03.05.2025 10:00",
+  "ref rozł": "(1) brak",
+  "waag": "24t",
+  "opakowanie": "palety",
+  "Towar": "towar spożywczy spaletyzowany, napoje",
+  "Temperatura": "",
+  "Uwagi": "[\"Zwrócić uwagę na jakość nośników oraz czy towar nie wystaje poza obrys palety\",\"Po zakończeniu załadunku zabezpieczyć przesyłkę przed przemieszczaniem się na naczepie\",\"Dostawa do magazynu automatycznego musi dojechać w stanie nienaruszonym\",\"Unikać gwałtownych manewrów hamowania, przyspieszania lub wchodzenia w zakręty przy dużej prędkości\",\"Wymagany zwrot dokumentów potwierdzających wykonanie usługi w terminie 14 dni od wykonania usługi\",\"Dokumenty: WZ\",\"Pojazd: WL9744V / WL485HA\",\"Kierowca: Artur Popinski, tel. 517 512 793\"]",
+  "Fracht": "1850",
+  "Waluta": "PLN"
+}

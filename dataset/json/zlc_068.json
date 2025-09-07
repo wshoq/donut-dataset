@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "RHENUS LOGISTICS S.P.A.",
+  "Adres zlec": "Via delle Azalee 5, 20090 Buccinasco (MI), Italy",
+  "Nip zlc": "IT12377440156",
+  "Przewoźnik": "VECTURA TRANSPORT SP. Z O.O.",
+  "adres przewoźnika": "Orla 6/6, 05-120 Legionowo, Poland",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "3625064674",
+  "Załadunek": "(1) MAN SOCKS ITALIA S.R.L. VIA MAZZINI, 105 46043 CASTIGLIONE DELLE STIVIERE | (2) RHENUS SAN BONIFACIO VIA VILLANOVA 75 37047 SAN BONIFACIO",
+  "od (z)": "(1) 01.08 08:00 - 12:00 | (2) 01.08 13:00 - 17:15",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) DEICHMANN LOGISTIK POLSKA SP. Z O.O. UL. GRANICZNA 8E 54-610 WROCLAW PL | (2) CENTRUM LOGISTYCZNE DIERA SP. ZO.O. UL. BATOREGO 4 05870 BLONIE PL",
+  "Od (r)": "(1) 05.08.2025 06:45 - 11:00",
+  "ref rozł": "(1) brak",
+  "waag": "2400.000 kg",
+  "opakowanie": "4 palety, 21.120 m³",
+  "Towar": "10-C hep pallet, wymiary: 10x80x120x220, ładunek grupowy",
+  "Temperatura": "",
+  "Uwagi": "[\"Obowiązkowe podanie numeru referencyjnego 3625064674 na fakturze\",\"Data załadunku: 01.08.2025 w godzinach 8-12 i 13-17:15\",\"Data dostawy: 05.08.2025 w godzinach 6:45-11:00\",\"Dostawa do Centrum Logistycznego Deichmann w Błoniu\",\"Towar przeznaczony dla Deichmann Logistik Polska Sp. z o.o.\",\"Wymagane potwierdzenie dostawy w określonych godzinach\",\"Należy podać numer referencyjny na fakturze, w przeciwnym razie faktura nie zostanie opłacona\"]",
+  "Fracht": "2100",
+  "Waluta": "EUR"
+}

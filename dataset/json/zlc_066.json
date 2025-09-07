@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "SPEDICO sp. z o.o.",
+  "Adres zlec": "ul. Górna 22, 21-560 Międzyrzec Podlaski",
+  "Nip zlc": "5372629719",
+  "Przewoźnik": "MR Składanek Sp. z o.o.",
+  "adres przewoźnika": "Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "brak",
+  "Załadunek": "(1) Zakład Przetwórstwa Spożywczego Maków Sp S.A. ul. Lipowa 91, 26-640 Skaryszew, Makówk.",
+  "od (z)": "(1) 28.08.2023 08:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) Ardo A/S Nagel-Liller Nimvej 1, 7120 Vejle Ost",
+  "Od (r)": "(1) 30.08.2023 07:00",
+  "ref rozł": "(1) brak",
+  "waag": "22800 kg",
+  "opakowanie": "",
+  "Towar": "Mrożone owoce",
+  "Temperatura": "-21°C",
+  "Uwagi": "[\"Transport wymaga naczepy chłodniczej z aktualnymi badaniami sanepidu, FRC i ATP\",\"Towar nie może być przewożony z innymi produktami\",\"Temperatura transportu musi być utrzymywana na poziomie -21°C\",\"W przypadku problemów z realizacją zlecenia należy kontaktować się pod numerem telefonu +48 731612257\",\"Wymagane pisemne potwierdzenie przyjęcia zlecenia do realizacji\"]",
+  "Fracht": "1300",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "TBX SP. Z O.O.",
+  "Adres zlec": "ul. Szyszkowa 35/37, 02-285 Warszawa",
+  "Nip zlc": "1182096488",
+  "Przewoźnik": "MR SKŁADANEK SP. Z O.O.",
+  "adres przewoźnika": "Stare Orzechowo 20A, 05-180 Pomiechówek",
+  "nip przewoźnik": "5361948711",
+  "Nr Zlecenia": "2023/PS/00939/A",
+  "Załadunek": "(1) GUALA CLOSURES DGS POLAND KAZIMIERZA WIELKIEGO 6 PL 87-800 WŁOCŁAWEK",
+  "od (z)": "(1) 18-01-2023 07:00 - 13:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) GARSOU ANGENOT SPRL RIJE ABOT 5 BE 4890 THIMISTER-CLERMONT",
+  "Od (r)": "(1) 20-01-2023 09:00 - 09:00",
+  "ref rozł": "(1) brak",
+  "waag": "6500,00 kg",
+  "opakowanie": "33 Palety EUR",
+  "Towar": "neutral",
+  "Temperatura": "",
+  "Uwagi": "[\"ładunek bez wymiany palet\",\"ładunek bez temperatury\",\"Warunkiem płatności jest dostarczenie potwierdzonego przez Odbiorcę oryginalnego listu przewozowego oraz dodatkowych dokumentów towarzyszących przesyłce\",\"Zleceniobiorca zobowiązany jest w terminie 7 dni od rozładunku przesłać czytelny skan dokumentów na adres docs@tbxlogistics.com\",\"W razie opóźnienia w dostarczeniu dokumentacji przewozowej Zleceniobiorca zobowiązuje się do zapłacenia kary umownej w wysokości 10 EUR\",\"Zleceniobiorca zobowiązany jest w terminie 14 dni od daty rozładunku dostarczyć oryginalne dokumenty towarzyszące przesyłce\",\"Brak wymiany palet skutkować będzie naliczeniem kary umownej w wysokości 20,00 EUR za paletę\",\"Zwrot palet możliwy jest w terminie 14 dni od dnia wykonania usługi\",\"Udokumentowania zwrotu należy dokonać w terminie 28 dni od dnia rozładunku przesyłki\",\"NETTO - płatne w PLN\",\"VAT - płatne w PLN\",\"zastosowanie ma kurs przeliczenia waluty wg. kursu NBP - tabela A ogłoszony w przeddzień rozładunku\"]",
+  "Fracht": "1480.00",
+  "Waluta": "EUR"
+}

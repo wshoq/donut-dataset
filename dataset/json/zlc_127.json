@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "MARCO - SPEDITION, s.r.o.",
+  "Adres zlec": "Šenkvická cesta 12, SK - 902 01 Pezinok",
+  "Nip zlc": "SK2020355282",
+  "Przewoźnik": "Vectura Transport sp. z o.o.",
+  "adres przewoźnika": "ORLA 6 M6, PL - 05120 LEGIONOWO",
+  "nip przewoźnik": "PL5361927175",
+  "Nr Zlecenia": "2251093",
+  "Załadunek": "(1) Parmentine SA 16 rue  Pasteur, FR 28150 Voves",
+  "od (z)": "30.04.2025 09:00 - 18:00",
+  "Ref zał": "(1) SER 040525575 | (2) NEM_040525033",
+  "Rozładunek": "LIDL Slovensko v.o.s Novy majer 4715/27 SK 92601 Sered |(2) Lidl Slovensko v.o.s Puchovska 12 SK 91441 Nemsova",
+  "Od (r)": "04.05.2025 07:00-08:00 |(2) 04.05.2025 12:00 - 13:00",
+  "ref rozł": "Ser_040525575 |(2) NEM_040525033",
+  "waag": "21672 kg brutto (20160 kg netto)",
+  "opakowanie": "84 skrzynie (1 skrzynia netto 240 kg, 1 skrzynia brutto 258 kg), 30-33 miejsca paletowe",
+  "Towar": "świeże ziemniaki dla LIDL SK, 84 skrzynie na paletach DUSSELDORF 80x60",
+  "Temperatura": "+5°C",
+  "Uwagi": "[\"Brak wymiany palet\",\"Czas załadunku podany w zleceniu oznacza godziny otwarcia, nie gotowość towaru\",\"Towar będzie gotowy około godziny 09:00 w dniu załadunku\",\"Sered: 78 skrzyń = 18720 kg netto, slot czasowy 08:00, referencja SER 040525575\",\"Nemsova: 6 skrzyń = 1440 kg netto, slot czasowy 13:00, referencja NEM_040525033\",\"W przypadku spóźnienia na slot czasowy do Nemsova, rozładunek możliwy bez slotu do 15:00\",\"Obowiązek przestrzegania czasów rozładunku podanych w zleceniu\",\"Zabezpieczenie towaru przed wilgocią poprzez zapewnienie ciągłej cyrkulacji powietrza w naczepie\",\"Po osiągnięciu wymaganej temperatury towaru, konieczne jest utrzymanie pracy agregatu w trybie non-stop\",\"Kierowca zobowiązany jest do rozładunku towaru z pojazdu do magazynu odbiorcy\",\"W przypadku różnych rodzajów towarów na palecie, towary należy układać zgodnie z instrukcjami odbiorcy\",\"Podczas załadunku należy zmierzyć temperaturę wewnątrz towaru na kilku paletach, zgłosić ją i zapisać w CMR\",\"Konieczne jest utrzymanie ciągłej temperatury transportu +5°C\",\"Naczepa musi być wstępnie schłodzona do około +5°C i higienicznie czysta\",\"Towar musi być zabezpieczony przed uszkodzeniem za pomocą co najmniej czterech belek zabezpieczających\",\"Przed wyjazdem z rampy należy sprawdzić stan palet, opakowań i towaru\",\"W przypadku uszkodzeń lub nieprawidłowości należy natychmiast skontaktować się z nadawcą\",\"Zabroniony transport innych produktów, chemikaliów lub substancji niebezpiecznych razem z żywnością\",\"W przypadku wcześniejszego transportu ryzykownych produktów, pojazd musi być dokładnie zdezynfekowany i wyczyszczony\",\"Wraz z fakturą transportową należy przesłać: 2 oryginalne CMR, oryginalną notę paletową z załadunku, oryginalne dowody dostawy towaru z pieczątką odbiorcy, oryginalne potwierdzenie odbioru towaru, listy pakunkowe i zapis temperatury potwierdzający utrzymanie temperatury transportu przez cały czas transportu\"]",
+  "Fracht": "2100",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "DACHSER SE",
+  "Adres zlec": "Thomas-Dachser-Straße 1, 01471 Radeburg, Deutschland",
+  "Nip zlc": "DE815512007",
+  "Przewoźnik": "Vectura Transport sp. z o.o.",
+  "adres przewoźnika": "Gościnna 1 5/19/2, 05-082 Blizne Łaszczyńskiego, Polen",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "03/113729",
+  "Załadunek": "(1) DACHSER SE Logistikzentrum Dresden Thomas-Dachser-Straße 1 01471 Radeburg DEUTSCHLAND",
+  "od (z)": "(1) 01.08.2025 08:00 - 16:00",
+  "Ref zał": "(1) Tour 514",
+  "Rozładunek": "(1) ECS European Containers N.V. Karveelstraat 3 8380 Zeebrugge (Brugge) BELGIEN",
+  "Od (r)": "(1) 04.08.2025 05:00 - 10:00 | (2) 04.08.2025 06:00",
+  "ref rozł": "(1) ECS-42476",
+  "waag": "9150 kg",
+  "opakowanie": "16/CL, 9/CL",
+  "Towar": "16/CL, 9/CL",
+  "Temperatura": "+1°C constantly",
+  "Uwagi": "[\"Rodzaj pojazdu: Frigo +1°C constantly\",\"Numer referencyjny: Tour 514\",\"Godziny załadunku: 08:00 - 16:00 (01.08.2025)\",\"Godziny rozładunku: 05:00 - 10:00 (04.08.2025)\",\"Numer zlecenia załadunku: 3300078833\",\"Numer referencyjny rozładunku: ECS-42476\",\"Wymagane natychmiastowe powiadomienie o zmianach\"]",
+  "Fracht": "1650",
+  "Waluta": "Eur"
+}

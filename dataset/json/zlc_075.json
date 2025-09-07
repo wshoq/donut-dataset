@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "ViKa Cargo Aps",
+  "Adres zlec": "Guldborgsundvej 5, DK-6705 Esbjerg, Denmark",
+  "Nip zlc": "DK45205975",
+  "Przewoźnik": "VECTURA TRANSPORT SP ZOO",
+  "adres przewoźnika": "",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "SALE-AUG3",
+  "Załadunek": "(1) CONSTELLATION COLD LOGISTICS EUROWEG 17 NL-7051 EB VARSSEVELD NETHERLANDS",
+  "od (z)": "(1) 01.08.2025 08:00 - 15:00",
+  "Ref zał": "(1) HWV-1055",
+  "Rozładunek": "(1) LODIFRAIS RUE PIERRE MENDES FR-33306 LORMONT FRANCE",
+  "Od (r)": "(1) 04.08.2025 08:00 - 10:00",
+  "ref rozł": "(1) 80021093",
+  "waag": "20.800 kg",
+  "opakowanie": "FTL (pełna ładowność)",
+  "Towar": "BUTTER (masło)",
+  "Temperatura": "'-18 stopni Celsjusza (stała temperatura)",
+  "Uwagi": "[\"Kierowca musi być obecny podczas załadunku\",\"Kierowca musi upewnić się, że ilość ładunku zgadza się z CMR\",\"Wymagane wcześniejsze schłodzenie naczepy\",\"Konieczność sprawdzenia temperatury\",\"Zakaz wymiany palet\",\"Transport musi być zgodny z przepisami dotyczącymi żywności\",\"Wymagana czysta i umyta naczepa w dobrym stanie technicznym\",\"W przypadku transportu chłodniczego wymagana naczepa chłodnicza\",\"Godziny załadunku: 08:00-15:00\",\"Godziny rozładunku: 08:00-10:00\"]",
+  "Fracht": "2.100",
+  "Waluta": "EUR"
+}

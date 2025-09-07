@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "TRANSDIREKT Eumlogistik GmbH",
+  "Adres zlec": "Kolumbusstrasse 14, D-22113 Hamburg, Niemcy",
+  "Nip zlc": "DE263043153",
+  "Przewoźnik": "MR Składanek Sp. z o.o.",
+  "adres przewoźnika": "PL 05-120 Legionowo, Polska",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "2212-40-0766+74",
+  "Załadunek": "(1) Unilok Logistics GmbH, Heykenaukamp 5-7, DE 21147 Hamburg | (2) Unilok Neugraben, Cuxhavener Str. 386, DE 21149 Hamburg",
+  "od (z)": "(1) 08.12.2022 08:00 - 13:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) Quad/Graphics Europe Sp. z o.o. ul. Pułtuska 120, PL 07-200 Wyszkow",
+  "Od (r)": "(1) 12.12.2022 11:00",
+  "ref rozł": "(1) WM101678",
+  "waag": "920 kg, 5005,50 kg",
+  "opakowanie": "EUROPAL (nie do układania na sobie)",
+  "Towar": "8 EUROPAL = 115 Kartons Blue Ocean Lip Gloss, 24 EUROPAL = 355 Kartons Blue Ocean Debbie",
+  "Temperatura": "",
+  "Uwagi": "[\"Kierowca musi sprawdzić towar i policzyć ilość kartonów\",\"W przypadku różnic w ilości kartonów należy natychmiast zgłosić\",\"CMR wypełnia kierowca samodzielnie\",\"Speditions Obergabeschein musi być podbity na rozładunku\",\"Dostawa z 2x Speditionsuebergabeschein\",\"Termin dostawy: 12.12.2022 o 11:00 FIX\",\"Numer awizacji: WM101678 na 8 PAL\",\"Pojazd: WL7497L / WL807CA - Piotr Kostrzewski\",\"Palety EUROPAL należy wymienić lub zwrócić do 20.12.2022\",\"Godziny załadunku: 08.12.2022 08:00-13:00\",\"Miejsce załadunku: Unilok Logistics GmbH, Heykenaukamp 5-7, DE 21147 Hamburg\",\"Miejsce dostawy: Quad/Graphics Europe Sp. z o.o., ul. Pułtuska 120, PL 07-200 Wyszków\",\"Czas bezpłatnego postoju: 4 godziny na załadunek/rozładunek i odprawę celną, powyżej 20 EUR/h lub 100 EUR/dzień\"]",
+  "Fracht": "900",
+  "Waluta": "EUR"
+}

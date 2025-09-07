@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "Transtar GmbH",
+  "Adres zlec": "Lehmkaul 4, D-41849 Wassenberg",
+  "Nip zlc": "DE304936844",
+  "Przewoźnik": "VECTURA TRANSPORT SPÓŁKA Z OGRANICZONĄ O",
+  "adres przewoźnika": "Orla 6/6, 05-120 Legionowo, Polen",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "110846",
+  "Załadunek": "(1) Mannstaedt GmbH Mendener Strasse 51 D-53840 Troisdorf",
+  "od (z)": "(1) 25.04.2025 11:15",
+  "Ref zał": "(1) 2200052568",
+  "Rozładunek": "(1) Metalltechnik Schiersch GmbH Ziegeleistrasse 10 D-92444 Rötz | (2) GMT - Wintersteller GmbH Erlfeld 70 A-5441 Abtenau",
+  "Od (r)": "(1) 28.04.2025 07:00 - 12:00 | (2) 28.04.2025 07:00 - 16:00",
+  "ref rozł": "(1) brak",
+  "waag": "23600,00 kg",
+  "opakowanie": "",
+  "Towar": "Stahl",
+  "Temperatura": "",
+  "Uwagi": "[\"Rodzaj transportu: Tautliner z Edscha\",\"Termin załadunku: 25.04.2025 o 11:00\",\"Termin rozładunku: 28.04.2025 w godzinach 07:00-16:00\",\"Waga ładunku: 23600 kg\",\"Brak dodatkowych informacji o wymaganiach temperatury\",\"Brak szczegółowych informacji o opakowaniu\"]",
+  "Fracht": "1600",
+  "Waluta": "EUR"
+}

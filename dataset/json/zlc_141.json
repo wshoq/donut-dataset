@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "Forta Freight Traffic Activity AG",
+  "Adres zlec": "P.O. Box 6174 Grand-Chene, 6 1003 - Lausanne Swutzerland",
+  "Nip zlc": "CHE-112.144.161",
+  "Przewoźnik": "M.R Składanek",
+  "adres przewoźnika": "Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "DV-20-03-004",
+  "Załadunek": "(1) SPECIALTY ELECTRONIC MATERIALS SWITZERLAND GMBH, DEU, Stade, F410/TA Gottlieb-Daimler-StraBe 7 / 21684 Stade",
+  "od (z)": "(1) 03.03.2020 07:00 - 16:00",
+  "Ref zał": "(1) 4580016740",
+  "Rozładunek": "(1) Brenntag, POL, 05800 Pruszków, DTA sp. z o.o. Ul. 3 Maja 8",
+  "Od (r)": "(1) 05.03.2020",
+  "ref rozł": "(1) brak",
+  "waag": "4200",
+  "opakowanie": "pal 115x115",
+  "Towar": "CHEMIA",
+  "Temperatura": "+5+35C",
+  "Uwagi": "W CMR koniecznie wpisac datę załadunku i numer auta, podbić w CMR KONIECZNIE MUSI BYĆ PIECZĄTKA NADAWCY!!!\nOdprawa eksportowa:\nNa załadunku Kierowca powinien sprawdzić ex!",
+  "Fracht": "380",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "TB Logistics Sp. z o.o. Sp.k.",
+  "Adres zlec": "Wołyńska 12, 35-119 Rzeszów, PL",
+  "Nip zlc": "PL8133710868",
+  "Przewoźnik": "MR SKŁADANEK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "adres przewoźnika": "ul. gen. Józefa Sowińskiego 12/36, 05-120 Legionowo, PL",
+  "nip przewoźnik": "PL5361948711",
+  "Nr Zlecenia": "Z/12/EP/6/2023/TB",
+  "Załadunek": "(1) Newcold Ul. Intermodalna 6, 99300 Kutno, PL",
+  "od (z)": "2023-07-0308:00 do 08:00",
+  "Ref zał": "(1) 109924",
+  "Rozładunek": "(1) Claus Sarensen A/S, Kristian Skous Vej 1, 7100 Vejle, DK",
+  "Od (r)": "2023-07-04 15:00 do 16:00",
+  "ref rozł": "(1) 109924",
+  "waag": "6500 kg",
+  "opakowanie": "66 Euro Pallet Double Stack",
+  "Towar": "neutralny 66 Euro Pallet Double Stack Frozen Cargo",
+  "Temperatura": "'-25°C do -18°C (TEMP NON/STOP)",
+  "Uwagi": "[\"Wymagana chłodnia\",\"Liczba metrów ładunkowych: 13.60\",\"Godziny załadunku: 08:00 do 08:00 (FIX 8:00 AM)\",\"Godziny rozładunku: 15:00 do 16:00\",\"Numer referencyjny: 109924\",\"Naczepa musi być schłodzona 1 godzinę przed załadunkiem\",\"Naczepa musi być czysta, sucha i bez zapachu\",\"Naczepa musi posiadać certyfikaty FRC i ATP\",\"Pojazd: WL9911K/WL9446A\",\"Kierowca: Damian Falkiewicz, tel. +45 22601579\",\"Płatność netto\",\"Zmiana adresu firmy do faktur i wysyłki dokumentów\"]",
+  "Fracht": "1000.00",
+  "Waluta": "EUR"
+}

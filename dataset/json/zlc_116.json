@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "Royal Transport & Spedition Szczepaniak Sp. K.",
+  "Adres zlec": "Lipowa 44, PL64100 Leszno",
+  "Nip zlc": "6972350216",
+  "Przewoźnik": "VECTURA TRANSPORT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "adres przewoźnika": "ORLA 6 M6, 05-120 LEGIONOWO, PL",
+  "nip przewoźnik": "5361927175",
+  "Nr Zlecenia": "AW/2025/04/0073",
+  "Załadunek": "(1) Hubert Stijken Professor Kohlrausch Str. - Gate A2, DE31737 Rinteln, DE",
+  "od (z)": "(1) 16.04.2025 (7-14;30)",
+  "Ref zał": "(1) ref•. 153810",
+  "Rozładunek": "(1) Friedrich Tiemann GmbH Grauwallring 13, DE27580 Bremerhaven, DE",
+  "Od (r)": "(1) 17.04.2025 (7-12)",
+  "ref rozł": "(1) ref•. 04/53002",
+  "waag": "6944 kg",
+  "opakowanie": "15 palet (120x80x52) + 5 palet (120x80x78)",
+  "Towar": "neutralny (15 pal - 120x80x52 // 5 pal 6944 kg - 120x80x78 // Not Stackable)",
+  "Temperatura": "",
+  "Uwagi": "[\"Dokumenty muszą być wysłane na adres POD@ROYAL-SPEDITION.COM z numerem zlecenia w temacie\",\"Brak wysłania dokumentów skutkuje karą 25 EUR\",\"Wiadomości bez numeru zlecenia nie będą akceptowane\",\"Dokumenty muszą być czytelne\"]",
+  "Fracht": "750",
+  "Waluta": "EUR"
+}

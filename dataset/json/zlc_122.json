@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "SLogistik GmbH",
+  "Adres zlec": "Bannmatten 14, D-77855 Achern",
+  "Nip zlc": "DE221980289",
+  "Przewoźnik": "Vectura Transport sp. z o.o",
+  "adres przewoźnika": "Orla 6, PL 05-120 Legionowo",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "055-107538",
+  "Załadunek": "(1) Schwarzwald-Sprudel GmbH Werk Wildberg Wasenstr. 3 D 72218 Wildberg",
+  "od (z)": "(1) 30.04.2025 7:00 - 17:00",
+  "Ref zał": "(1) Einweg A99017226 /2007465505",
+  "Rozładunek": "(1) Netto Marken-Discount AG&Co. KG Logistikzentrum Henstedt-Ulzburg Rudolf-Diesel-Strasse 15 - 17 D 24558 Henstedt-Ulzburg",
+  "Od (r)": "(1) 02.05.25 11:29 - 12:00",
+  "ref rozł": "(1) 2007465505 Liferschein-Nr A99017226",
+  "waag": "23.162 kg",
+  "opakowanie": "1 partie",
+  "Towar": "Einweggetränke",
+  "Temperatura": "",
+  "Uwagi": "[\"Przestrzegać kolejności rozładunku 1,2,3...\",\"Brak wymiany / Kod XL\",\"W przypadku nieprzestrzegania terminów, wag ładunku itp. lub innych zakłóceń w transporcie, należy niezwłocznie poinformować nasz dział dyspozycji\",\"Zobowiązanie do przestrzegania wszystkich przepisów prawnych dotyczących realizacji transportu\",\"Zapewnienie zabezpieczenia ładunku zgodnie z przepisami, w szczególności §412 HGB i VDI 2700\",\"Zobowiązanie do przekazywania na żądanie aktualnego statusu przesyłki\",\"Pojazd musi być w nienagannym, czystym i bezwonnym stanie\",\"W transporcie żywności (w tym napojów) obowiązuje przestrzeganie wymagań IFS-Logistics w aktualnej wersji\",\"Zobowiązanie do wymiany nośników ładunku (w szczególności europalet) w stosunku 1:1, z uwzględnieniem ryzyka wymiany u odbiorcy\",\"Niewymienione europalety i palety z Dusseldorfu będą rozliczane w wysokości 10 EUR za paletę plus opłata manipulacyjna\",\"Zwrot możliwy maksymalnie 6 tygodni po przyjęciu transportu, po tym okresie następuje potrącenie z należności frachtowych\",\"Zapewnienie nieograniczonej ochrony klienta. W przypadku naruszeń należy uiścić 10.000 EUR za każdy przypadek\",\"Sąd właściwy: Achern\",\"Wystawiamy noty korygujące. Do wystawienia noty oczekujemy kompletnych i potwierdzonych dokumentów transportowych (list przewozowy, dowód dostawy, dokumenty paletowe itp.) w ciągu 10 dni od przyjęcia transportu\",\"W przypadku braku dokumentów w terminie, zastrzegamy sobie prawo do obniżenia wynagrodzenia o 25 EUR\",\"Warunki transportu są wiążące nawet bez pisemnego potwierdzenia\",\"W przypadku przekazania zlecenia faksem, raport wysyłki stanowi potwierdzenie odbioru\"]",
+  "Fracht": "1.150,00",
+  "Waluta": "EUR"
+}

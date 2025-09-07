@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "SILVAN LOGISTICS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA",
+  "Adres zlec": "GEN. TADEUSZA KUTRZEBY 16G/124, 61-719 POZNAŃ, PL",
+  "Nip zlc": "7831763282",
+  "Przewoźnik": "Firma Transportowo Spedycyjna M.R. Składanek",
+  "adres przewoźnika": "GEN. JÓZEFA SOWIŃSKIEGO 12/36, 05-120 LEGIONOWO, PL",
+  "nip przewoźnik": "5360002972",
+  "Nr Zlecenia": "Z/2020/01934/STA2",
+  "Załadunek": "(1) MIROSŁAW JANAS, Russowek 20, 62-817 Żelazków, PL",
+  "od (z)": "(1) 2020-07-01 17:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) NATURE FRESH ŁUKASZ FRANCZAK, hala OWI/E/9, ul. Poznańska 98, 05-850 Bronisze, PL",
+  "Od (r)": "(1) 2020-07-02 07:00",
+  "ref rozł": "(1) brak",
+  "waag": "22000 kg",
+  "opakowanie": "33 Europalety",
+  "Towar": "ŚWIEŻE OWOCE / WARZYWA, 33 x Europaleta (wymiary: 120x80x240 cm)",
+  "Temperatura": "+6°C",
+  "Uwagi": "Bez wymiany palet, dokładna ilosc towaru wg. dokumentów, czysta sucha naczepa bez obcych zapachów schłodzona do temp +6 stopni przed załadunkiem, Prosze dobrze zabezpieczyc towar",
+  "Fracht": "700",
+  "Waluta": "PLN"
+}

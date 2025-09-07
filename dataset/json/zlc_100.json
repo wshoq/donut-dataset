@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "SKAT Transport P.S.A.",
+  "Adres zlec": "Juliusza Słowackiego 199, 80-298 Gdańsk",
+  "Nip zlc": "5851356886",
+  "Przewoźnik": "VECTURA TRANSPORT sp. Z O.O.",
+  "adres przewoźnika": "orla 6/6, PL 05-120 Legionowo",
+  "nip przewoźnik": "PL5361927175",
+  "Nr Zlecenia": "57738/S/2025",
+  "Załadunek": "(1) ALLNEX ITALY S.R.L. VIA MARTIRI DI BELFIORE, 2 IT; 36060 ROMANO D'EZZELINO (VI)",
+  "od (z)": "(1) 2025-07-31 08:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) według cmr PL; 96-321 SIESTRZEŃ",
+  "Od (r)": "(1) 2025-08-05 09:00",
+  "ref rozł": "(1) brak",
+  "waag": "24 624,00 KG",
+  "opakowanie": "",
+  "Towar": "Chemia",
+  "Temperatura": "",
+  "Uwagi": "[\"Dostawa fix 05.08.2025\",\"Miejsce rozładunku otwarte w godzinach 8-12 13:30-16\",\"Dokumenty transportowe wraz z fakturą do zlecenia 57738/S/2025 należy dostarczyć wyłącznie w formie elektronicznej na adres e-mail e-invoice@skat.com.pl\",\"Wiadomość musi zawierać dwa załączniki, jeden z fakturą, drugi z dokumentami transportowymi. W temacie musi pojawić się numer zlecenia\",\"Zleceniobiorca zobowiązany jest do przechowywania oryginałów dokumentów transportowych przez okres 6 lat od daty rozładunku oraz udostępnienia ich SKAT na każde żądanie w przeciągu 3 dni roboczych\",\"Faktura powinna być wystawiona w PLN\",\"Obowiązuje średni kurs waluty zlecenia ogłoszony przez NBP\"]",
+  "Fracht": "1450",
+  "Waluta": "EUR"
+}

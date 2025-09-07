@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "TBX SP. Z O.O.",
+  "Adres zlec": "ul. Szyszkowa 35/37, 02-285 Warszawa",
+  "Nip zlc": "1182096488",
+  "Przewoźnik": "MR SKŁADANEK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "adres przewoźnika": "ul. gen. Józefa Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "5361948711",
+  "Nr Zlecenia": "20231M0112330/C",
+  "Załadunek": "(1) ARLA FOODS VEJLE EXPORTTERMINAL DOFOVEJ 2B DK | (2) ESBJERG GODS A/S ALSSUNDVEJ 2 DK 6705 Esbjerg",
+  "od (z)": "14-07-2023 7:00(2) 14-07-2023 10:00",
+  "Ref zał": "8-23-0028334(2) 8-23-0028200",
+  "Rozładunek": "(1) FRESH LOGISTICS SP. Z.O.O POZNANSKA 71 PL 62023 GADKI",
+  "Od (r)": "(1) 17-07-2023",
+  "ref rozł": "8-23-0028334 FLS: 2100062188 ON: 0406981458 | FLS: 2100079437 ON: 0406981458(2)  8-23-0028334 FLS: 2100062188 ON: 0406981458 | FLS: 2100079437 ON: 0406981458",
+  "waag": "15,28 t",
+  "opakowanie": "24 palet",
+  "Towar": "SER",
+  "Temperatura": "od 2 do 6 st. C",
+  "Uwagi": "[\"ładunek wymagający pracy agregatu w trybie AUTOMAT, wydruk należy okazać na rozładunku\",\"Zleceniobiorca zobowiązany jest do sprawdzenia temperatury ładowanego towaru, jak również zwrócenia uwagi na drożność rękawów rozprowadzających powietrze\",\"ładunek bez wymiany palet\"]",
+  "Fracht": "900",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "NEW WAVE INTERNATIONAL CARGO sp. z o.o. sp. k.",
+  "Adres zlec": "NIEPODLEGŁOŚCI 18, 02-653 WARSZAWA",
+  "Nip zlc": "PL5213669600",
+  "Przewoźnik": "MR SKŁADANEK sp. z o.o.",
+  "adres przewoźnika": "ul. gen. Józefa Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "5361948711",
+  "Nr Zlecenia": "2023/11/S/12571",
+  "Załadunek": "Magazyn TAS Tarczyńska 111Mszczonów 96-320",
+  "od (z)": "20.11.2023 14:45 - 15:00",
+  "Ref zał": "88563",
+  "Rozładunek": "TERG SPOLKA AKCYJNAJędrzejowska 45A93-636 Łódź",
+  "Od (r)": "21.11.20238:45-9:00",
+  "ref rozł": "88563",
+  "waag": "10000 kg",
+  "opakowanie": "",
+  "Towar": "AGD/RTV",
+  "Temperatura": "",
+  "Uwagi": "[\"Naczepa czysta, sucha, szczelna i pozbawiona obcych zapachów\",\"Kierowca zobowiązany do przesłania zdjęcia CMR/WZ po załadunku\",\"Kierowca musi weryfikować stan i ilość towaru przy każdej dostawie\",\"Wymagany bus z windą\",\"Kierowca nie bierze udziału w załadunku - musi zaznaczyć ten fakt w CMR\",\"FIX 15:00 dla załadunku 20.11.2023\",\"FIX 09:00 dla rozładunku 21.11.2023\",\"Numer referencyjny załadunku/rozładunku: 88563\",\"Przewoźnik musi potwierdzić przyjęcie zlecenia w ciągu 30 minut\",\"24h wolne od przestoju dla rozładunku w UE, 48h dla odprawy celnej\",\"VAT 23%\",\"Pojazd: WL0884R / WL486HA\",\"Kierowca: Miśkzynski Tomasz / 794001407\"]",
+  "Fracht": "700.00",
+  "Waluta": "PLN"
+}

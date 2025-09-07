@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "EURRECO LOGISTICS ANDRZEJ PODGERSKI",
+  "Adres zlec": "ul. JANA NOWAKA-JEZIORAŃSKIEGO 10/12, 03-984 WARSZAWA",
+  "Nip zlc": "9521277424",
+  "Przewoźnik": "SKŁADANEK MIROSŁAW FIRMA TRANSPORTOWO-SPEDYCYJNA",
+  "adres przewoźnika": "ul. gen. JÓZEFA SOWIŃSKIEGO 12/36, 05-120 LEGIONOWO",
+  "nip przewoźnik": "5360002972",
+  "Nr Zlecenia": "ZL116U06'20",
+  "Załadunek": "(1) EURRECO LOGISTICS ANDRZEJ PODGÓRSKI, JANA NOWAKA-JEZIORAŃSKIEGO 10/12, 03984 WARSZAWA, POLSKA",
+  "od (z)": "(1) 07.07.2020",
+  "Ref zał": "(1) 020-01339",
+  "Rozładunek": "(1) LANTMANNEN UNIBAKE, INDUSTRIVEJ 2, 6330 PADBORG, DANIA",
+  "Od (r)": "(1) 08.07.2020",
+  "ref rozł": "(1) brak",
+  "waag": "6580 kg",
+  "opakowanie": "33 palety",
+  "Towar": "MROŻONE PIECZYWO, TEMPERATURA -20°C, 33 PALETY, BEZ WYMIANY",
+  "Temperatura": "-20°C",
+  "Uwagi": "",
+  "Fracht": "750",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "FONOKAJ sp. z o.o. sp. k.",
+  "Adres zlec": "ul. Zygmunta Augusta 5A/4, 81-359 Gdynia",
+  "Nip zlc": "PL5862279741",
+  "Przewoźnik": "MIROSŁAW SKŁADANEK FIRMA TRANSPORTOWO-SPEDYCYJNA \"MR SKŁADANEK\"",
+  "adres przewoźnika": "ul. gen. Józefa Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "5360002972",
+  "Nr Zlecenia": "ZL0731/05/20",
+  "Załadunek": "(1) Magazyn LogistycznY Portowa 4, Krzyż 64-761",
+  "od (z)": "(1) 20.05.2020 7:00-13:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1)Hornbach-Baumarkt -DANISCHBURGER LANDSTRASSE 83, 23569 LUBECK, NIEMCY | (2) Hornbach Aumarkt - THEODOR-HEUSS-RING 136, 24143 KIEL, NIEMCY",
+  "Od (r)": "(1) 22.05.2020 08:00 - 13:00 | (2) 22.05.2020 08:00 - 16:00",
+  "ref rozł": "(1) brak | (2) brak",
+  "waag": "24 TONY",
+  "opakowanie": "",
+  "Towar": "FTL",
+  "Temperatura": "",
+  "Uwagi": "",
+  "Fracht": "550",
+  "Waluta": "EUR"
+}

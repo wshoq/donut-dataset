@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "INTELWAY LOGISTICS",
+  "Adres zlec": "Lāčplēša iela 53 - 35, Riga LV-1011, Latvia",
+  "Nip zlc": "LV40203376008",
+  "Przewoźnik": "Vectura Transport Spółka Z Ograniczoną Odpowiedzialnością",
+  "adres przewoźnika": "",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "15047",
+  "Załadunek": "(1) Orkla Foods Latvija Ltd., Zvaigznu iela 1, Babites pagasts, Babites novads, LV-2101 Spilve, Latvia",
+  "od (z)": "(1) 01.08.2025",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) HOPI s.r.o., Zdčbradská, 74, 49.9638992, 14.6249923, CZ 251 01 Středočeský kraj, Prague, Czech Republic",
+  "Od (r)": "(1) 04.08.2025",
+  "ref rozł": "(1) brak",
+  "waag": "22000 kg",
+  "opakowanie": "33 jednostki pakowania",
+  "Towar": "Towar wymagający transportu w temperaturze od 2 do +15°C",
+  "Temperatura": "2 do +15°C",
+  "Uwagi": "[\"Należy podać numer zlecenia transportowego na fakturze\",\"Wymagana pojemność ładunkowa: 13.20 LDM\",\"Całkowita waga brutto: 22000.00 kg\",\"Objętość ładunku: 0 m³\",\"Numer projektu: 6938\"]",
+  "Fracht": "1370.00",
+  "Waluta": "EUR"
+}

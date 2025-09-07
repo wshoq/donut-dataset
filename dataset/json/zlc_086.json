@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "DSB Logistics Sp. z o.o",
+  "Adres zlec": "Mikołowska 29, 41-400 Mysłowice",
+  "Nip zlc": "2220919315",
+  "Przewoźnik": "MR SKŁADANEK SPOŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "adres przewoźnika": "GEN. JÓZEFA SOWIŃSKIEGO 12/36, 05-120 LEGIONOWO",
+  "nip przewoźnik": "5361948711",
+  "Nr Zlecenia": "ZL102/12/2022",
+  "Załadunek": "(1) Egger Holzwerkstoffe Wismar GmbH & CO.KG Am Haffeld 1, DE23970 Wismar, DE",
+  "od (z)": "(1) 08.12.2022 08:00 - 20:00",
+  "Ref zał": "(1) 84749488",
+  "Rozładunek": "(1) Centrum Logistyczne Leroy Merlin ulica Łowicka 33, PL99120 Piątek, PL",
+  "Od (r)": "(1) 09.12.2022 12:00",
+  "ref rozł": "(1) 84749488",
+  "waag": "",
+  "opakowanie": "33 x Europaleta",
+  "Towar": "neutral (Wymiana - Europaleta: Nie)",
+  "Temperatura": "",
+  "Uwagi": "[\"Numer referencyjny: 84749488\",\"Faktura dwuwalutowa EUR/PLN\",\"Przeliczenie według kursu średniego NBP z ostatniego dnia roboczego przed rozładunkiem\",\"Podanie numerów kont dla PLN i EUR\",\"Możliwość wypłaty należności w EUR lub PLN\",\"ADR: Nie\",\"Forma płatności: przelew\",\"Uzgodniony fracht płatny w oparciu o fakturę VAT\",\"E-skonto dostępne na www.dsb-logistics.pl\"]",
+  "Fracht": "600.00",
+  "Waluta": "EUR"
+}

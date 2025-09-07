@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "MARCO - SPEDITION, s.r.o.",
+  "Adres zlec": "Šenkvická cesta 12, SK - 902 01 Pezinok, Slovakia",
+  "Nip zlc": "SK2020355282",
+  "Przewoźnik": "Vectura Transport sp. z o.o.",
+  "adres przewoźnika": "ORLA 6 M6, PL - 05120 LEGIONOWO, Poland",
+  "nip przewoźnik": "PL5361927175",
+  "Nr Zlecenia": "2251758",
+  "Załadunek": "(Parmentine SA, Zoning Industriel Voy, 3 Sentier Valtat, FR - 512 30 Fere-Champonoise",
+  "od (z)": "1.08.2025 10:00 - 18:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "Kaufland Slovenska Republika DC -Ilava, Trencianska cesta 400/80, SK - 01901 Ilava - Kolbusice",
+  "Od (r)": "03.08.20257:00-13:00",
+  "ref rozł": "(1) brak",
+  "waag": "12121 kg brutto / 10380 kg netto",
+  "opakowanie": "palety",
+  "Towar": "świeże ziemniaki dla Kaufland SK",
+  "Temperatura": "'+5°C (stała temperatura transportu)",
+  "Uwagi": "[\"Kierowca musi zgłosić się 60 minut przed wyznaczonym czasem załadunku\",\"Palety do wymiany muszą być przygotowane przed podjechaniem pod rampę\",\"Wymagana wymiana palet sztuka za sztukę z potwierdzeniem na oddzielnym dokumencie\",\"Naczepa musi być wstępnie schłodzona do około +5°C i higienicznie czysta\",\"Towar musi być zabezpieczony przed uszkodzeniem co najmniej czterema belkami i innymi środkami ochrony\",\"Kierowca jest zobowiązany do rozładunku towaru do magazynu odbiorcy\",\"W przypadku różnych rodzajów towaru na palecie, towary muszą być układane zgodnie z instrukcjami odbiorcy\",\"Podczas załadunku należy zmierzyć temperaturę wewnątrz towaru na kilku paletach i odnotować w CMR\",\"Zakaz transportu innych produktów, chemikaliów lub substancji niebezpiecznych razem z żywnością\",\"Wymagane dokładne odkażenie i czyszczenie pojazdu przed transportem żywności\",\"Wraz z fakturą transportową należy przesłać: 2 oryginalne CMR, oryginalną notę paletową z załadunku, oryginalne dokumenty dostawy z pieczątką odbiorcy, potwierdzenie odbioru towaru, listy pakunkowe i zapis temperatury potwierdzający utrzymanie temperatury transportu przez cały czas transportu\"]",
+  "Fracht": "17 EUR za paletę",
+  "Waluta": "EUR"
+}

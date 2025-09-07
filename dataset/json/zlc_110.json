@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "MEXEM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "Adres zlec": "Kowalewice 9, 77-200 Miastko",
+  "Nip zlc": "5220003084",
+  "Przewoźnik": "MR SKLADANEK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "adres przewoźnika": "ul. gen. Józefa Sowińskiego 12/36, 05-120 Legionowo",
+  "nip przewoźnik": "5361948711",
+  "Nr Zlecenia": "2231200161084",
+  "Załadunek": "(1) COLA COLA -MAGAZYN CIEMNE LOGISTYCZNA 6 05-250 RADZYMIN -CIEMNE",
+  "od (z)": "(1) 04-12-2023 18:00",
+  "Ref zał": "(1) brak",
+  "Rozładunek": "(1) JMD GDAŃSK KARTUSKA 491 80-298 GDAŃSK PL",
+  "Od (r)": "(1) 05-12-2023 18:00",
+  "ref rozł": "(1) brak",
+  "waag": "22000,00 t",
+  "opakowanie": "0,00 paleta",
+  "Towar": "NAPOJE",
+  "Temperatura": "",
+  "Uwagi": "[\"Połączenie się z aplikacją SHIPPEO jest obowiązkowe, w przeciwnym razie przewoźnik zostanie obciążony kwotą 50 zł\",\"Minimum 3 belki zabezpieczające + linka celna\",\"W przypadku posiadania zbyt dużej liczby belek, kierowca bierze pełną odpowiedzialność za przewóz towaru\",\"Konieczne przesłanie skanu lub zdjęcia dokumentów po rozładunku w ciągu 1 dnia na numer tel. 601334435 lub mail: NIKOLA.KROL@MEXEM.COM.PL\",\"Brak przesłania skanu dokumentów z pieczątkami i podpisem odbiorcy skutkuje pomniejszeniem frachtu o 300 PLN za każdy brakujący dokument\",\"Oryginały dokumentów należy przesłać w ciągu 10 dni od daty rozładunku, w przeciwnym razie nakładana jest kara umowna 200 PLN za każdy dzień opóźnienia\",\"Brak podjęcia ładunku w wyznaczonym terminie skutkuje obciążeniem\"]",
+  "Fracht": "1450",
+  "Waluta": "PLN"
+}

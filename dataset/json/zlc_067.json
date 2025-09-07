@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "NOSTA Logistics GmbH",
+  "Adres zlec": "Niederlassung Ladbergen",
+  "Nip zlc": "DE117649841",
+  "Przewoźnik": "Vectura SP ZO.O.",
+  "adres przewoźnika": "Orla 6/6, PL-05-120 Legionowo",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "784528150",
+  "Załadunek": "(1) GIMI spa via Trentino 23 I-35043 MONSELICE",
+  "od (z)": "(1) 31.07.2025 08:00 - 15:00",
+  "Ref zał": "(1) 5031853228",
+  "Rozładunek": "(1) Lidl GmbH & Co.KG Zentrallager In der Bög 18 91330 EGGOLSHEIM",
+  "Od (r)": "(1) 04.08.2025 08:00 - 08:00",
+  "ref rozł": "(1) brak",
+  "waag": "5610 kg",
+  "opakowanie": "33 Europalety z wymianą, 330 kartonów",
+  "Towar": "478899-Univ. ONE Indoor Dryer",
+  "Temperatura": "",
+  "Uwagi": "[\"Wymagany pojazd: Planensattel o min. 2,65m wysokości wewnętrznej, czysty, suchy, bez zapachów, z rampą\",\"Wymagana wymiana palet\",\"Czas bezpłatnego załadunku/rozładunku: 4 godziny\",\"Standgeld: 30 EUR/h, max 300 EUR/dzień (tylko z potwierdzeniem)\",\"Kierowca odpowiada za załadunek, rozładunek i zabezpieczenie ładunku\",\"Awizacja pojazdu do godz. 15:30 dnia przed załadunkiem\",\"Wymagane dokumenty do rozliczenia: podpisany przez odbiorcę list przewozowy i CMR\",\"Dokumenty z centrów logistyczznych akceptowane tylko ze stemplem i podpisem\",\"Przyjęcie towaru odbywa się według liczby sztuk na paletach\",\"W przypadku problemów z dostawą należy niezwłocznie poinformować NOSTA na piśmie\"]",
+  "Fracht": "1950",
+  "Waluta": "EUR"
+}

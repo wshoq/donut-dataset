@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "T.E.L.S. Transeuropean Logistic Services Ltd.",
+  "Adres zlec": "Prospect House, Suite 22, 2 Athenaeum Road, Whetstone, London N20 9AE, England",
+  "Nip zlc": "GB989803158",
+  "Przewoźnik": "MR Składanek sp. z o.o.",
+  "adres przewoźnika": "Sowińskiego 12/36, 05-120 Legionowo, PL",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "B4723060272",
+  "Załadunek": "(1) DE PL Hamburg ND DE-22041 HAMBURG, Am Neumarkt 20",
+  "od (z)": "(1) 26.06.2023 09:00",
+  "Ref zał": "(1) X100432862-1-Strykow k.Lodzi/4570469864",
+  "Rozładunek": "(1) Raben Logistics sp. z O.o. PL, 95-010, STRYKOW, Smolice 89",
+  "Od (r)": "(1) 27.06.2023 18:00 - 18:00",
+  "ref rozł": "(1) XI 00435415-1 Strykow k.Lodzi/4570493667",
+  "waag": "22 000 kg",
+  "opakowanie": "63 miejsc",
+  "Towar": "Ładunek: waga: 22 000 kg, wymiary: 120*80*120, miejsc: 63, towar dla NESTLE Polska, Możliwość piętrowania: Tak, Rodzaj ładunku: Ładunek w temperaturze kontrolowanej, Zakres temperatury: +10+15",
+  "Temperatura": "+10+15",
+  "Uwagi": "[\"informować w razie zmiany numerów auta\",\"informować w razie spóźnienia\",\"obowiązują timesloty\",\"kopię CMR należy obowiązkowo przesłać pocztą elektroniczną do osoby kontaktowej TELS-UK w ciągu 5 dni roboczych od rozładunku\",\"fakturę prosimy wystawić (0% VAT) na TELS-UK i przysłać pocztą wraz z CMR pod adres naszej księgowości\"]",
+  "Fracht": "700",
+  "Waluta": "EUR"
+}

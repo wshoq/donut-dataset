@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "Unterer GmbH",
+  "Adres zlec": "Luna 32, 6250 Kundl, Austria",
+  "Nip zlc": "ATU32430107",
+  "Przewoźnik": "Vectura Transport Sp. Z.o.o",
+  "adres przewoźnika": "Orla 6/6, 05-120 Legionowo, Poland",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "1467172",
+  "Załadunek": "(1) Orva srl Via Martino Tarroni 15 I-48012 Bagnacavallo",
+  "od (z)": "(1) 31.07.2025 08:00 - 16:00",
+  "Ref zał": "(1) PO#27",
+  "Rozładunek": "(1) Hovelmann Logistik GmbH & Co. KG Am Knohl 1 (Halle 6) D-39326 Hohe Börde",
+  "Od (r)": "(1) 04.08.2025 08:00 - 12:00",
+  "ref rozł": "(1) brak",
+  "waag": "22000 kg",
+  "opakowanie": "33 palety oneway",
+  "Towar": "goods",
+  "Temperatura": "+15/+18°C",
+  "Uwagi": "[\"Brak wymiany palet\",\"Wymagana naczepa chłodnicza\",\"Numer ciągnika: WL9744V\",\"Numer naczepy: EZGIX70\",\"Liczba miejsc ładunkowych: 33\",\"Liczba metrów ładunkowych: 13,2\",\"Transport na podstawie stałych dat\",\"Faktura musi być wystawiona i wysłana do: Unterer GmbH, Luna 32, A-6250 Kundl\",\"Zlecenie transportowe jest udzielane wyłącznie na podstawie Ogólnych Warunków Umowy dostępnych na www.unterer.at/en/agb\"]",
+  "Fracht": "2100",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "Spedition Krekel GmbH",
+  "Adres zlec": "Elbbachstrasse 4, D-56459 Guckheim",
+  "Nip zlc": "148000363",
+  "Przewoźnik": "Vectura Transport sp. z o.o.",
+  "adres przewoźnika": "Goscinna 15/19/2, PL 05-082 Blizne Laszczynskiego",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "250400534",
+  "Załadunek": "(1) DSC Tramaco - TPG d.o.o. Żelezniška cesta 15 / Parking P2 SLO - 6000 Koper",
+  "od (z)": "(1) 30.04.2025 7-14 o clock",
+  "Ref zał": "(1) 2278",
+  "Rozładunek": "(1) Zeleninarska s.r.o. Kostolna pri Dunaji 188 SK - 90301 Kostolna pri Dunaji",
+  "Od (r)": "(1) 01.05.2025 7-17 o'clock",
+  "ref rozł": "(1) brak",
+  "waag": "22.500,00 kg",
+  "opakowanie": "17 Einwegpaletten",
+  "Towar": "Kartoffeln in Big-Bag (17 Einwegpaletten)",
+  "Temperatura": "+5 °C",
+  "Uwagi": "[\"Referenznummer muss als Lade- und Abladenr. auf dem CMR / KVO notiert werden\",\"Load in order Dankers Daltex with the Referenz-Nr.!\",\"Bars for loading security are necessary!\"]",
+  "Fracht": "1200",
+  "Waluta": "€"
+}

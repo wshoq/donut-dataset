@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "HCS A/S Transport & Spedition",
+  "Adres zlec": "Hvissingevej 100, DK-2600 Glostrup",
+  "Nip zlc": "",
+  "Przewoźnik": "",
+  "adres przewoźnika": "",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "189859",
+  "Załadunek": "(1) MKLEKARNA A.S. ZATRATI 640 CZ-33901 KLATOVY",
+  "od (z)": "(1) 25-04-2025 10:00 - 11:00",
+  "Ref zał": "(1) 10262453 | 2694442/10262453/double floor",
+  "Rozładunek": "(1) LACTALIS DANMARK A/S NORDIC SHARED SERVICE INDUSTRIVEJ 14 DK-3320 SKAEVINGE",
+  "Od (r)": "(1) 27-04-2025 10:00 - 11:00",
+  "ref rozł": "(1) 10262453 | 4-25-0024159",
+  "waag": "22300",
+  "opakowanie": "52 PLL",
+  "Towar": "DAIRY PRODUCTS",
+  "Temperatura": "+1 Ciągły",
+  "Uwagi": "[\"MODE: CONTINUOUS!\",\"ZATRAT1640\",\"All signed CMR waybills and delivery documents must be clearly marked with booking number and sent as PDF to 915cmr@hcs.dk\",\"Documents must be received within 14 days after transport otherwise EUR 50,00 administration fee will be imposed\",\"Documents must be registered by the 5th of the following month to ensure timely settlement\",\"HCS will issue credit note for the agreed freight amount\",\"If invoice is received from carrier, EUR 25,00 administration fee will be charged\",\"Compliance with minimum wage laws in Germany, Norway, Italy, France and Austria is required\"]",
+  "Fracht": "1800",
+  "Waluta": "EUR"
+}

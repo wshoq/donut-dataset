@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "NW CARGO GMBH",
+  "Adres zlec": "Höseler Platz 2, D-42579 Heiligenhaus, Germany",
+  "Nip zlc": "DE367382376",
+  "Przewoźnik": "Vectura Transport sp. z o.o.",
+  "adres przewoźnika": "Goscinna 15, 05-082 Blizne Laszczyńskiego, Poland",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "T-25070645",
+  "Załadunek": "(1) Söllner Logistic GmbH & Co. KG Am Schweinemarkt 16 D-96515 Sonneberg",
+  "od (z)": "(1) 31.07.2025 07:00 -14:00",
+  "Ref zał": "(1) 7600040403",
+  "Rozładunek": "(1) NEXLER sp. z o.o. Sandomierska 38 PL-80-051 Gdańsk",
+  "Od (r)": "(1) 01.08.2025 07:00 - 12:00",
+  "ref rozł": "(1) brak",
+  "waag": "7801,024 kg",
+  "opakowanie": "10 rolek",
+  "Towar": "10 rolek włókniny szklanej",
+  "Temperatura": "",
+  "Uwagi": "[\"Wymagany pojazd: 13,6 LDM, Planen-LKW z certyfikatem XL Code zgodnie z DIN 12642\",\"Certyfikat musi być przedstawiony przy rejestracji\",\"Brak wymiany palet\",\"Pojazd musi być dostosowany do wjazdu wózka widłowego o ładowności 7 ton\",\"Wymagane wyposażenie: pasy mocujące, ochraniacze krawędzi, maty antypoślizgowe, deski mocujące\",\"Transport realizowany zgodnie z Niemieckimi Ogólnymi Warunkami Spedycji (ADSp)\"]",
+  "Fracht": "950",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "DSV Hungária Szállítmányozási Kft.",
+  "Adres zlec": "Balatoni 2/a, HU-1112 Budapest",
+  "Nip zlc": "HU12036024-2-44",
+  "Przewoźnik": "VECTURA TRANSPORT",
+  "adres przewoźnika": "",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "254038-2, 20015455-1",
+  "Załadunek": "(1) 3. Lineage LL Co DK—6330 Padborg",
+  "od (z)": "(1) 2025.04.25 00:00",
+  "Ref zał": "(1) BU2DKH-0131",
+  "Rozładunek": "(1) QSL OLLô ZÔLDMEZô HU-2325 tjLLô",
+  "Od (r)": "29.04.202500:00",
+  "ref rozł": "(1) brak",
+  "waag": "1085",
+  "opakowanie": "35 PLL",
+  "Towar": "",
+  "Temperatura": "-18 celcius",
+  "Uwagi": "[\"THERMOSCRIPT!\",\"Faktura i dowód dostawy (POD) muszą być wysłane na adres dsvroadszamla@hu.dsv.com z wymaganymi danymi\",\"Nie wysyłać dokumentów pocztą\",\"Numer referencyjny dla DSV: BU2DKH-0131\",\"Wymagane jest podanie numeru EKAER\"]",
+  "Fracht": "2500",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "AMEX LOGISTICS",
+  "Adres zlec": "Pascallaan 11, 8218 NJ Lelystad",
+  "Nip zlc": "NL 8084.26.783.B01",
+  "Przewoźnik": "Vectura Transport Sp. z o.o.",
+  "adres przewoźnika": "Legionowo",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "ER42737",
+  "Załadunek": "(1) Trinity GmbH Blisseler Strasse 36 48455 Gildehaus (DE)",
+  "od (z)": "(1) 30-07-2025",
+  "Ref zał": "(1) ER42737",
+  "Rozładunek": "(1) DUC S.A. 2 Grande Rue 89770 Chailley (FR)",
+  "Od (r)": "(1) 31-07-2025 08:00 | (2) 31-07-2025 18:00",
+  "ref rozł": "(1) AM 272717",
+  "waag": "0 KG",
+  "opakowanie": "",
+  "Towar": "490 dolav Emballage",
+  "Temperatura": "",
+  "Uwagi": "[\"Auto moet leeg en schoon zijn!\",\"Factuur met C MR in PDF formaat a.u.b. mailen naar: crediteuren@amex.nl\",\"Bij problemen of vertragingen bellen met: Tel. 0320-343434\",\"Referentie op faktuur vermelden: AM 272717\"]",
+  "Fracht": "1250",
+  "Waluta": "EUR"
+}

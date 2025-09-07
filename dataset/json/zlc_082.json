@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "SKAW Logistyka Sp. z o.o. Sp. k.",
+  "Adres zlec": "ul. Zamkowa 1/11, 03-890 Warszawa, PL",
+  "Nip zlc": "PL5242827177",
+  "Przewoźnik": "MR SKŁADANEK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "adres przewoźnika": "ul. gen. Józefa Sowińskiego 12/36, 05-120 Legionowo, PL",
+  "nip przewoźnik": "PL5361948711",
+  "Nr Zlecenia": "z/1344/10/2023",
+  "Załadunek": "(1) SCHUMACHER PACKAGING SP. Z.O.O. ul. Wrocławska 66, Krepice, 55-330 Miekinia, PL",
+  "od (z)": "2023-10-04 08:00 do 15:00",
+  "Ref zał": "(1) PO-196196/232978",
+  "Rozładunek": "(1) STOK EMBALLAGE KIS, FALSTERSVEJ 11 PORT 4-9, 5550 MIDDELFART, DK",
+  "Od (r)": "2023-10-05 07:00 do 14:00",
+  "ref rozł": "(1) brak",
+  "waag": "10000 kg",
+  "opakowanie": "",
+  "Towar": "neutralny",
+  "Temperatura": "",
+  "Uwagi": "[\"Liczba metrów ładunkowych: 13.60\",\"Godziny załadunku: 08:00 do 15:00\",\"Godziny rozładunku: 07:00 do 14:00\",\"Numer referencyjny: PO-1961961232978\",\"Pojazd: WL0393T\",\"Naczepa: WL9446A\",\"Kierowcy: Mariusz Rutkowski / Sławomir Błaszczyk\",\"Płatność netto\",\"Czytelny skan lub zdjęcie CMR oraz dokumentów towarzyszących należy dostarczyć w ciągu 2 dni roboczych od dostawy\",\"Dokumenty należy przesłać na adres: cmr@skawlogistyka.pl\",\"Kara umowna 50 EUR za nieterminowe dostarczenie dokumentów\"]",
+  "Fracht": "1150.00",
+  "Waluta": "EUR"
+}

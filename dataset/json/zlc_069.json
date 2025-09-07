@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "MESAROLI LOGISTICA S.P.A.",
+  "Adres zlec": "VIA TIONE, 14, 37060 TREVENZUOLO VR, Italy",
+  "Nip zlc": "1572720223",
+  "Przewoźnik": "VECTURA TRANSPORT SP. Z O.O.",
+  "adres przewoźnika": "",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "2202/2025/SG",
+  "Załadunek": "(1) Sindra Logistik & Services Beteiligungs-GmbH/ David-Hansenmann-Straße 1 -25 / 52531 Uebach-Palenberg/ D",
+  "od (z)": "(1) 31/07/2025 07:00",
+  "Ref zał": "(1) 3376402",
+  "Rozładunek": "(1) LIDL ITALIA SRL PONTEDERA' VIA ALBERTO CARPI , 25/37 / 56025 PONTEDERA/ PIJ 1",
+  "Od (r)": "(1) 04/08/2025 06:59",
+  "ref rozł": "(1) PON 040825619",
+  "waag": "22 tony maksymalnie",
+  "opakowanie": "26 palet, brak wymiany palet, brak pustych palet w przyczepie",
+  "Towar": "ALIMENTARI CONGELATI - PA 33 (mrożone produkty spożywcze)",
+  "Temperatura": "-25°C",
+  "Uwagi": "[\"Kierowca musi przyjechać z temperaturą -25°C\",\"Wymagane wykonanie termodruku po rozładunku\",\"Samodzielny rozładunek przez kierowcę\",\"Kierowca musi mieć odzież ochronną\",\"Rejestracja pojazdu przy załadunku: TOR2 B57/L225\",\"Maksymalna waga ładunku: 22 tony\",\"Faktura musi zawierać numer zlecenia załadunku Mesaroli Logistica S.p.A.\",\"Faktury zbiorcze nie będą akceptowane\",\"Minimalne ubezpieczenie: 250.000 EUR\",\"Wymagane dokumenty: CMR, licencja UE, certyfikat rejestracji w Izbie Handlowej\",\"W przypadku niezaładunku maksymalna kwota odszkodowania: 250 EUR\",\"Wymagane potwierdzenie dostarczenia oryginalnych, opieczętowanych dokumentów\"]",
+  "Fracht": "1850",
+  "Waluta": "EUR"
+}

@@ -1,0 +1,22 @@
+{
+  "Zleceniodawca": "Quehenberger Freight GmbH",
+  "Adres zlec": "Gewerbegebiet Nord 5, AT-5204 Strasswalchen, Austria",
+  "Nip zlc": "AT5204",
+  "Przewoźnik": "Vectura Transport sp. z o.o.",
+  "adres przewoźnika": "Orla 6/6, PL-05-120 Legionowo, Poland",
+  "nip przewoźnik": "",
+  "Nr Zlecenia": "TST146456",
+  "Załadunek": "Byness, via A. Ricci 2, IT-51015 Monsummano Terme |",
+  "od (z)": "(1) 04/08/2025 (08:00 - 17:00)",
+  "Ref zał": "4505989286",
+  "Rozładunek": "Essity Operation Mainz — Kostheim G, Römerstraße, DE-65462 Ginsheim-Gustavsburg",
+  "Od (r)": "(1) 06/08/2025 (12:00 FIX)",
+  "ref rozł": "1552568",
+  "waag": "24",
+  "opakowanie": "30 EPal",
+  "Towar": "artykuły higieniczne",
+  "Temperatura": "",
+  "Uwagi": "[\"Dokumenty przewozowe dla każdego załadunku muszą być przesłane przez Weblink w ciągu 5 dni roboczych\",\"W przypadku żądania oryginalnych dokumentów, muszą być one wysłane pocztą w ciągu 14 dni\",\"W przypadku nieterminowego przesłania dokumentów przewozowych, zastrzegamy sobie prawo do potrącenia 25% z ceny frachtu\",\"Godziny załadunku: 04/08/2025 (08:00 - 17:00)\",\"Godziny rozładunku: 06/08/2025 (12:00 FIX)\",\"Rodzaj pojazdu: Tautliner 13,60 m\",\"Link do przesyłania dokumentów: https://ccp.quehenberger.com/?loginToken=608321A420C28EF7F7E25CEFCAE6229D&actiontyp=QCCPDriverApp\",\"Numer zlecenia: TST146456\",\"Wszelkie pytania dotyczące płatności/reklamacji muszą zawierać numer kredytowy lub numer zlecenia (TST146456)\"]",
+  "Fracht": "1800.00",
+  "Waluta": "EUR"
+}
