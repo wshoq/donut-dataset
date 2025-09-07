@@ -10,8 +10,13 @@ RUN python3 -m pip install --upgrade pip setuptools wheel
 
 WORKDIR /workspace
 
+# --- Kopiowanie plików projektu ---
 COPY train.py /workspace/
+COPY start.sh /workspace/
 
+RUN chmod +x /workspace/start.sh
+
+# --- Instalacja pakietów Python ---
 RUN pip install --no-cache-dir \
         torch==2.8.0+cu128 torchvision==0.23.0+cu128 torchaudio==2.8.0+cu128 \
         --index-url https://download.pytorch.org/whl/cu128
@@ -20,13 +25,5 @@ RUN pip install --no-cache-dir \
         protobuf==3.20.3 sentencepiece transformers==4.55.4 datasets==3.0.1 \
         accelerate==0.34.2 pillow tqdm scikit-learn nltk
 
-# --- Pobranie datasetu w buildzie ---
-ARG DATASET_URL=http://194.110.5.34:8000/dataset.zip
-RUN mkdir -p /workspace/data && \
-    wget -O /workspace/data/dataset.zip $DATASET_URL && \
-    unzip /workspace/data/dataset.zip -d /workspace/data/ && \
-    mv /workspace/data/dataset/* /workspace/data/ && \
-    rmdir /workspace/data/dataset && \
-    rm /workspace/data/dataset.zip
-
-CMD ["python3", "train.py"]
+# --- CMD uruchamia start.sh ---
+CMD ["/workspace/start.sh"]
