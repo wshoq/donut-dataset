@@ -1,10 +1,10 @@
 name: Build and Push Docker Image
 
-
 on:
   push:
     branches:
       - main
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
@@ -14,11 +14,9 @@ jobs:
       id-token: write
 
     steps:
-      # 1️⃣ Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Logowanie do GHCR
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v2
         with:
@@ -26,7 +24,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3️⃣ Budowa i push obrazu
       - name: Build and Push Docker image
         uses: docker/build-push-action@v5
         with:
