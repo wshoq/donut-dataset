@@ -43,6 +43,5 @@ RUN pip install --no-cache-dir \
     scikit-learn \
     nltk
 
-# --- Domyślny entrypoint i cmd ---
-ENTRYPOINT ["/bin/bash"]
-CMD []
+# --- Domyślny CMD (keep-alive dla Runpod + Bash) ---
+CMD ["/bin/bash", "-c", "while true; do sleep 1000; done"]
