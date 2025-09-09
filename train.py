@@ -1,117 +1,96 @@
 import os
-import json
+from PIL import Image
 import torch
 from torch.utils.data import Dataset, DataLoader
-from torch.optim import AdamW
-from transformers import DonutProcessor, VisionEncoderDecoderModel
-from PIL import Image
-from tqdm import tqdm
+from transformers import DonutProcessor, VisionEncoderDecoderModel, AdamW
+from datasets import load_dataset
 
-# --- Ścieżki ---
-JSON_FOLDER = "/workspace/data/json"
-PNG_FOLDER = "/workspace/data/png"
-MODEL_NAME = "naver-clova-ix/donut-base-finetuned-cord-v2"
-BATCH_SIZE = 1       # możesz zwiększyć np. do 4 lub 8 na A40
-EPOCHS = 3
-MAX_LENGTH = 1024
-CHECKPOINT_DIR = "/workspace/checkpoints"
+# -----------------------------
+# Konfiguracja
+# -----------------------------
+DATASET_JSONL = "dataset/donut_dataset.jsonl"
+IMAGE_FOLDER = "dataset/png"
+OUTPUT_DIR = "outputs/donut-finetuned"
+NUM_EPOCHS = 3
+BATCH_SIZE = 1
+LEARNING_RATE = 5e-5
+MAX_LENGTH = 512  # maksymalna długość tokenów output
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+RESIZE_SIZE = (1280, 1280)  # maksymalny rozmiar obrazu (dłuższy bok)
 
-os.makedirs(CHECKPOINT_DIR, exist_ok=True)
-
-# --- Dataset ---
+# -----------------------------
+# Dataset
+# -----------------------------
 class DonutDataset(Dataset):
-    def __init__(self, json_folder, png_folder, processor):
-        self.examples = []
+    def __init__(self, jsonl_file, image_folder, processor):
+        self.dataset = load_dataset("json", data_files=jsonl_file)["train"]
+        self.image_folder = image_folder
         self.processor = processor
-        for fn in os.listdir(json_folder):
-            if not fn.endswith(".json"):
-                continue
-            base_id = fn.replace(".json", "").replace("zlc_", "")
-            json_path = os.path.join(json_folder, fn)
-            with open(json_path, "r", encoding="utf-8") as f:
-                label_data = json.load(f)
-
-            page_num = 1
-            while True:
-                img_path = os.path.join(png_folder, f"zlc_{base_id}-page_{page_num}.png")
-                if not os.path.exists(img_path):
-                    break
-                self.examples.append({"id": base_id, "json": label_data, "page": img_path})
-                page_num += 1
 
     def __len__(self):
-        return len(self.examples)
+        return len(self.dataset)
 
     def __getitem__(self, idx):
-        ex = self.examples[idx]
-        img = Image.open(ex["page"]).convert("RGB")
+        example = self.dataset[idx]
+        img_path = os.path.join(self.image_folder, example["image_path"])
+        image = Image.open(img_path).convert("RGB")
 
-        pixel_values = self.processor(images=[img], return_tensors="pt").pixel_values.squeeze(0)
-        target_str = json.dumps(ex["json"], ensure_ascii=False)
+        # resize jeśli większe niż RESIZE_SIZE
+        image.thumbnail(RESIZE_SIZE, Image.Resampling.LANCZOS)
+
+        pixel_values = self.processor(image, return_tensors="pt").pixel_values.squeeze()
         labels = self.processor.tokenizer(
-            target_str,
-            return_tensors="pt",
-            padding="max_length",
+            example["output"],
             truncation=True,
-            max_length=MAX_LENGTH
-        ).input_ids.squeeze(0)
+            max_length=MAX_LENGTH,
+            padding="max_length",
+            return_tensors="pt"
+        ).input_ids.squeeze()
 
         return {"pixel_values": pixel_values, "labels": labels}
 
+# -----------------------------
+# Setup model + processor
+# -----------------------------
+processor = DonutProcessor.from_pretrained("naver-clova-ix/donut-base")
+model = VisionEncoderDecoderModel.from_pretrained("naver-clova-ix/donut-base")
+model.to(DEVICE)
 
-# --- Inicjalizacja ---
-print("🔹 Wczytywanie procesora i modelu...")
-processor = DonutProcessor.from_pretrained(MODEL_NAME)
-dataset = DonutDataset(JSON_FOLDER, PNG_FOLDER, processor)
+# -----------------------------
+# DataLoader
+# -----------------------------
+dataset = DonutDataset(DATASET_JSONL, IMAGE_FOLDER, processor)
+dataloader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True)
 
-train_size = int(0.9 * len(dataset))
-train_data, val_data = torch.utils.data.random_split(dataset, [train_size, len(dataset) - train_size])
-train_loader = DataLoader(train_data, batch_size=BATCH_SIZE, shuffle=True)
-val_loader = DataLoader(val_data, batch_size=BATCH_SIZE)
+# -----------------------------
+# Optimizer
+# -----------------------------
+optimizer = AdamW(model.parameters(), lr=LEARNING_RATE)
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"🔹 Urządzenie: {device}")
-
-model = VisionEncoderDecoderModel.from_pretrained(MODEL_NAME)
-model.to(device)
-
-# Konfiguracja modelu
-model.config.decoder_start_token_id = processor.tokenizer.cls_token_id
-model.config.pad_token_id = processor.tokenizer.pad_token_id
-model.gradient_checkpointing_enable()
+# -----------------------------
+# Pętla treningowa
+# -----------------------------
 model.train()
+for epoch in range(NUM_EPOCHS):
+    print(f"\n=== EPOCH {epoch+1}/{NUM_EPOCHS} ===")
+    for step, batch in enumerate(dataloader):
+        pixel_values = batch["pixel_values"].to(DEVICE)
+        labels = batch["labels"].to(DEVICE)
 
-optimizer = AdamW(model.parameters(), lr=5e-5)
-
-# --- Pętla treningowa ---
-for epoch in range(EPOCHS):
-    model.train()
-    train_loss = 0.0
-    print(f"\n🔹 Epoka {epoch+1}/{EPOCHS}:")
-
-    for batch in tqdm(train_loader, desc=f"Trening Epoka {epoch+1}"):
-        pixel_values = batch["pixel_values"].to(device)   # [B,3,H,W]
-        labels = batch["labels"].to(device)               # [B,MAX_LENGTH]
-
-        optimizer.zero_grad()
-        outputs = model(pixel_values=pixel_values, labels=labels)
+        outputs = model(pixel_values=pixel_values.unsqueeze(0), labels=labels.unsqueeze(0))
         loss = outputs.loss
+
         loss.backward()
         optimizer.step()
+        optimizer.zero_grad()
 
-        train_loss += loss.item()
+        if step % 10 == 0:
+            print(f"Step {step}, Loss: {loss.item():.4f}")
 
-        # czyszczenie GPU
-        del pixel_values, labels, outputs
-        torch.cuda.empty_cache()
-
-    avg_loss = train_loss / len(train_loader)
-    print(f"🔹 Średnia strata treningowa: {avg_loss:.4f}")
-
-    # zapis checkpointu
-    save_path = os.path.join(CHECKPOINT_DIR, f"epoch_{epoch+1}")
-    model.save_pretrained(save_path)
-    processor.save_pretrained(save_path)
-    print(f"💾 Zapisano checkpoint w: {save_path}")
-
-print("✅ Trening zakończony.")
+# -----------------------------
+# Save model + processor
+# -----------------------------
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+model.save_pretrained(OUTPUT_DIR)
+processor.save_pretrained(OUTPUT_DIR)
+print(f"\nModel zapisany w {OUTPUT_DIR}")
