@@ -2,9 +2,9 @@ model:
   base_model: "naver-clova-ix/donut-base-finetuned-cord-v2"
 
 dataset:
-  name: "iandeyeman/my_dataset"
-  input_col: "image"
-  output_col: "text"
+  local_path: "./dataset/donut_dataset.jsonl"
+  input_col: "image_path"
+  output_col: "output"
 
 training:
   micro_batch_size: 1
