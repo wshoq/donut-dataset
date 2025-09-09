@@ -11,9 +11,12 @@ from tqdm import tqdm
 JSON_FOLDER = "/workspace/data/json"
 PNG_FOLDER = "/workspace/data/png"
 MODEL_NAME = "naver-clova-ix/donut-base-finetuned-cord-v2"
-BATCH_SIZE = 1
+BATCH_SIZE = 1       # możesz zwiększyć np. do 4 lub 8 na A40
 EPOCHS = 3
 MAX_LENGTH = 1024
+CHECKPOINT_DIR = "/workspace/checkpoints"
+
+os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 
 # --- Dataset ---
 class DonutDataset(Dataset):
@@ -42,7 +45,8 @@ class DonutDataset(Dataset):
     def __getitem__(self, idx):
         ex = self.examples[idx]
         img = Image.open(ex["page"]).convert("RGB")
-        pixel_values = self.processor(images=[img], return_tensors="pt").pixel_values
+
+        pixel_values = self.processor(images=[img], return_tensors="pt").pixel_values.squeeze(0)
         target_str = json.dumps(ex["json"], ensure_ascii=False)
         labels = self.processor.tokenizer(
             target_str,
@@ -51,12 +55,15 @@ class DonutDataset(Dataset):
             truncation=True,
             max_length=MAX_LENGTH
         ).input_ids.squeeze(0)
-        return {"pixel_values": pixel_values.squeeze(0), "labels": labels}
+
+        return {"pixel_values": pixel_values, "labels": labels}
+
 
 # --- Inicjalizacja ---
 print("🔹 Wczytywanie procesora i modelu...")
 processor = DonutProcessor.from_pretrained(MODEL_NAME)
 dataset = DonutDataset(JSON_FOLDER, PNG_FOLDER, processor)
+
 train_size = int(0.9 * len(dataset))
 train_data, val_data = torch.utils.data.random_split(dataset, [train_size, len(dataset) - train_size])
 train_loader = DataLoader(train_data, batch_size=BATCH_SIZE, shuffle=True)
@@ -80,11 +87,11 @@ optimizer = AdamW(model.parameters(), lr=5e-5)
 for epoch in range(EPOCHS):
     model.train()
     train_loss = 0.0
-    print(f"\n🔹 Epoka {epoch+1}/{EPOCHS} - trening po jednej stronie:")
+    print(f"\n🔹 Epoka {epoch+1}/{EPOCHS}:")
 
     for batch in tqdm(train_loader, desc=f"Trening Epoka {epoch+1}"):
-        pixel_values = batch["pixel_values"].unsqueeze(0).to(device)  # [1,3,H,W]
-        labels = batch["labels"].unsqueeze(0).to(device)  # [1,1024]
+        pixel_values = batch["pixel_values"].to(device)   # [B,3,H,W]
+        labels = batch["labels"].to(device)               # [B,MAX_LENGTH]
 
         optimizer.zero_grad()
         outputs = model(pixel_values=pixel_values, labels=labels)
@@ -99,6 +106,12 @@ for epoch in range(EPOCHS):
         torch.cuda.empty_cache()
 
     avg_loss = train_loss / len(train_loader)
-    print(f"Średnia strata treningowa: {avg_loss:.4f}")
+    print(f"🔹 Średnia strata treningowa: {avg_loss:.4f}")
+
+    # zapis checkpointu
+    save_path = os.path.join(CHECKPOINT_DIR, f"epoch_{epoch+1}")
+    model.save_pretrained(save_path)
+    processor.save_pretrained(save_path)
+    print(f"💾 Zapisano checkpoint w: {save_path}")
 
 print("✅ Trening zakończony.")
