@@ -1,15 +1,41 @@
-model:
-  base_model: "naver-clova-ix/donut-base-finetuned-cord-v2"
+# config.yaml (Axolotl - multimodal / Donut)
+base_model: "naver-clova-ix/donut-base"
+trust_remote_code: true
 
-dataset:
-  local_path: "./dataset/donut_dataset.jsonl"
-  input_col: "image_path"
-  output_col: "output"
+# --- multimodal helpers (required for vision models in Axolotl)
+processor_type: AutoProcessor
+skip_prepare_dataset: true
+remove_unused_columns: false
+sample_packing: false
 
+# --- dataset (instruction-style with custom fields)
+datasets:
+  - path: "./dataset/donut_dataset.jsonl"
+    type:
+      # two-pole instruction dataset where 'input' carries the task/instruction
+      field_instruction: input
+      field_input: ""          # your rows don't have a separate 'input' beyond instruction
+      field_output: output
+      system_prompt: ""
+      format: "{instruction} {input}"
+      no_input_format: "{instruction}"
+
+# --- training & perf
 training:
-  micro_batch_size: 1
-  learning_rate: 5e-5
+  output_dir: "outputs/donut-finetuned"
   num_epochs: 3
+  micro_batch_size: 1
+  gradient_accumulation_steps: 4   # symuluj większy batch
+  learning_rate: 5e-5
   gradient_checkpointing: true
+  gradient_clipping: 1.0
+  bf16: auto        # jeśli GPU wspiera bfloat16 (H100), przyspieszy i zmniejszy pamięć
+  fp16: true        # dla kart NVIDIA (uważaj na kompatybilność z bf16)
+  val_set_size: 0.05
+  logging_steps: 20
+  saves_per_epoch: 1
 
-output_dir: "outputs/donut-finetuned"
+# --- extras
+remove_unused_columns: false
+trust_remote_code: true
+strict: false
