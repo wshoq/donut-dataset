@@ -21,8 +21,10 @@ RUN python3 -m pip install --upgrade pip setuptools wheel
 # --- Ustawienie katalogu roboczego ---
 WORKDIR /workspace
 
-# --- Skopiowanie kodu ---
+# --- Skopiowanie kodu i start.sh ---
 COPY train.py /workspace/
+COPY start.sh /workspace/start.sh
+RUN chmod +x /workspace/start.sh
 
 # --- Instalacja PyTorch 2.8 + CUDA 12.8 ---
 RUN pip install --no-cache-dir \
@@ -43,5 +45,5 @@ RUN pip install --no-cache-dir \
     scikit-learn \
     nltk
 
-# --- Domyślny CMD (keep-alive dla Runpod + Bash) ---
-CMD ["/bin/bash", "-c", "while true; do sleep 1000; done"]
+# --- Start kontenera ---
+CMD ["/workspace/start.sh"]
