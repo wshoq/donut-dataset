@@ -1,0 +1,15 @@
+model:
+  base_model: "naver-clova-ix/donut-base-finetuned-cord-v2"
+
+dataset:
+  name: "iandeyeman/my_dataset"
+  input_col: "image"
+  output_col: "text"
+
+training:
+  micro_batch_size: 1
+  learning_rate: 5e-5
+  num_epochs: 3
+  gradient_checkpointing: true
+
+output_dir: "outputs/donut-finetuned"
